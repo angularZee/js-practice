@@ -25,3 +25,22 @@ console.log(nameInNumber)
  console.log(valueInBoolean2)
 
  // same way number can be converted to string and srting oprations will be performed on it
+
+
+
+ ///////////////////////////****OPRATIONS *//////////////////////////////////////////
+
+
+ let str1 = "hello"
+ let str2 = "world"
+
+ let str3 = str1 + " " + str2  //both strings are onnected
+ console.log(str3)
+
+ console.log("1" + 2);
+ console.log(1 + "2");
+ console.log( "1"+2+2); //answer is 122 because first  value is string
+ console.log( 2+2+"1"); // cuz first value is number 2 + 2 is treated as numbers 
+ console.log(typeof( 2+2+"1")); // and its type is string
+
+ 
